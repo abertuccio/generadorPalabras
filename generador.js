@@ -127,9 +127,9 @@ archivos.forEach(archivo => {
     }
 
     //ELIMINAMOS LAS QUE NO RESPETAN LOS PARAMETROS
-    palabras = palabras.filter(p =>
-        // no mas de 10 palabras no mas de 80 caracteres
-        (p.split(" ").length < 11 && p.length < 81)
+    palabras = palabras.filter((p,i) =>
+        // no mas de 10 palabras no mas de 80 caracteres menos de 20000 lineas
+        (p.split(" ").length < 11 && p.length < 81 && i<20000)
     );
 
 
@@ -138,7 +138,7 @@ archivos.forEach(archivo => {
         if (err) {
             console.log('Hubo un error');
         } else {
-            console.log('Archivo ' + prevArchivos + archivo + '.csv');
+            console.log('Archivo ' + prevArchivos + archivo);
         }
     });
 
