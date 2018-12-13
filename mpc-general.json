@@ -1,0 +1,58 @@
+{
+    "zona": [
+        "palermo",
+        "nuñes",
+        "villa urquiza",
+        "ciudad autonoma de buenos aires",
+        "caba",
+        "capital",
+        "capital federal"
+    ],
+    "tipoConsulta": [
+        "ansiedad",
+        "estres",
+        "stres",
+        "stress",
+        "ansiedad generalizada",
+        "fobia",
+        "fobias",
+        "crisis de panico",
+        "panico"
+    ],
+    "psicologos": [
+        "psicologo",
+        "psicologa",
+        "psicologos",
+        "psicologas",
+        "terapeuta",
+        "terapeutas",
+        "psicoterapeuta",
+        "psicoterapeutas"
+    ],
+    "tratamiento": [
+        "tratamiento",
+        "tratamiento psicologico",
+        "tratamientos",
+        "tratamientos psicologicos",
+        "terapia",
+        "terapia psicologica",
+        "terapias",
+        "terapias psicologicas",
+        "psicoterapia",
+        "psicoterapias",
+        "centro",
+        "centro psicologico"
+    ],
+    "orientacion":[
+        "cognitivo conductual",
+        "cognitiva conductual",
+        "tercera ola",
+        "cognitivo",
+        "cognitivos",
+        "cognitivas"
+    ],
+    "solas": [
+        "vivir con ansiedad",
+        "centro para los trastornos de ansiedad"
+    ]
+}
